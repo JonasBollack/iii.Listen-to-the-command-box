@@ -23,6 +23,7 @@ button{
 	background-color: rgb(97,205,255);
 	border-style: hidden;
 	border-radius: 10px;
+    margin-left: 10px;
 }
 .bottom div{
     width: 100%;
@@ -60,6 +61,9 @@ textarea{
 	overflow-y: scroll;
 	font-size: 24px;
 	line-height: 24px;
+}
+#userIn{
+	margin-left: 620px;
 }
 
 
