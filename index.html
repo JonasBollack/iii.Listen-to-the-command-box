@@ -130,7 +130,6 @@
     </tbody></table>
 
     <br>
-    <input type="text" id="runIpt" value="MOV LEF">
     <div id="userIn">
         <div class="show-row">
         </div>
@@ -140,6 +139,10 @@
     <div class="tittle"><ul>
     	<li>在输入框中允许输入如下指令，按下按钮后，使得正方形做相应动作</li>
     	<li>GO：向蓝色边所面向的方向前进一格（一格等同于正方形的边长）</li>
+        <li>对于GO，TRA以及MOV指令增加可以移动格子数量的参数</li>
+        <li>GO 3：向当前方向前进三格</li>
+        <li>TRA TOP 2：向屏幕上方平移两格</li>
+        <li>MOV RIG 4：方向转向屏幕右侧，向屏幕的右侧移动四格</li>
     	<li>TUN LEF：向左转（逆时针旋转90度）</li>
     	<li>TUN RIG：向右转（顺时针旋转90度）</li>
     	<li>TUN BAC：向右转（旋转180度）</li>
